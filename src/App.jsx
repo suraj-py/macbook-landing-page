@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar.jsx";
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello, Macbook Pro!</h1>;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 };
 
 export default App;
